@@ -30,6 +30,23 @@
 
 }
 
+.carousel-caption{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption h5{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .cartas{
     display:flex;
     flex-wrap: wrap;
@@ -45,8 +62,29 @@
     max-width: 1100px;
 }
 
-.colorbotones{
-    background-color: #6a6a6a6a;
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.card .btn-primary:hover {
+    background-color: #343a40;
+    border-color: #343a40; 
+}
+
+.card .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); 
 }
 
 .rowdiv {
@@ -188,3 +226,5 @@
     margin: 30px 50px 30px 50px;
 
 }
+
+
