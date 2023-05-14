@@ -56,6 +56,23 @@
     margin: 2rem;
 }
 
+.cartas-pag-drones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.card1{
+    margin: 20px;
+}
+
+.card2{
+    margin: 20px;
+}
+
 .container {
     width: 100%;
     display: flex;
