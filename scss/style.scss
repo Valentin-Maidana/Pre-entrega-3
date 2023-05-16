@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/nav";
+@import "partials/carrusel-index";
+@import "partials/galeria";
+@import "partials/mixin";
+
+
+@media screen and (min-width:1020px) { 
+    .carousel-caption {
+        position: absolute;
+        text-align: center;
+        color: #ffff;
+    }
+}
+
+
+.card-drones {
+    width: 300px;
+
+}
+
+
+.imagenes2 {
+    margin: 20px;
+    padding: 20px;
+}
+
+.cardsdron {
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.cartas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.cartas-pag-drones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.card1{
+    margin: 20px;
+}
+
+.card2{
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.card .btn-primary:hover {
+    background-color: $color-secundario;
+    border-color: #343a40; 
+}
+
+.card .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); 
+}
+
+.rowdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-control {
+    width: 23rem;
+}
+
+.colorboton-form {
+    @include justify(center)
+    background-color: #282828;
+    color: #fff;
+    border: #282828;
+    margin: 20px;
+
+}
+
+.tamañoboton {
+    width: 100px;
+}
+
+.margen-abajo {
+    margin-bottom: 5rem;
+}
+
+.botones {
+    @extend .colorboton-form;
+}
+    
+.texto{
+    display: flex;
+    justify-content:space-around;
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+.imagensoporte {
+    width: 100%;
+}
+
+.p-nosotros{
+    text-align: justify ;
+    justify-content: center;
+    margin: 30px 50px 30px 50px;
+
+}
+
+
