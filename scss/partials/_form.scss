@@ -1,0 +1,12 @@
+.form-control {
+    width: 23rem;
+}
+.colorboton-form {
+    @include justify(center)
+    background-color: #282828;
+    color: #fff;
+    border: #282828;
+    margin: 20px;
+
+}
+

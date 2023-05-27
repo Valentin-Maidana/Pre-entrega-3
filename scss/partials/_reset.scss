@@ -6,3 +6,12 @@
     text-decoration: none;
     color: inherit;
 }
+.container {
+    width: 100%;
+    display: flex;
+}
+.rowdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

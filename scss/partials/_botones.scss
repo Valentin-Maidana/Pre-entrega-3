@@ -1,0 +1,8 @@
+
+.tamañoboton {
+    width: 100px;
+}
+
+.botones {
+    @extend .colorboton-form;
+}

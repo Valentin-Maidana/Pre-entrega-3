@@ -1,0 +1,70 @@
+
+.card-drones {
+    width: 300px;
+
+}
+.cardsdron {
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.cartas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.cartas-pag-drones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.card1{
+    margin: 20px;
+}
+
+.card2{
+    margin: 20px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.card .btn-primary:hover {
+    background-color: $color-secundario;
+    border-color: #343a40; 
+}
+
+.card .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); 
+}
+.texto{
+    display: flex;
+    justify-content:space-around;
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+.imagenes2 {
+    margin: 20px;
+    padding: 20px;
+}
